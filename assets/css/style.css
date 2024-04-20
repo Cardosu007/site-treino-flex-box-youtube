@@ -64,13 +64,14 @@ header {
 main {
     margin-top: 20px;
     display: flex;
-    justify-content: space-evenly;
+    gap: 50px;
     flex-direction: row;
 }
 
 #tamanho {
     width: 800px;
     display: inline-block;
+    margin-left: 100px;
 }
 
 
@@ -148,21 +149,34 @@ h3 {
 
 }
 
+
+
 #lateral {
     display: flex;
+    width: 300px;
 }
 
-#lateral #videolateral h6 {
+#lateral1 {
+    display: flex;
+    width: 300px;
+}
+
+#lateral2 {
+    display: flex;
+    width: 300px;
+}
+
+#videolateral h6 {
     font-size: 10px;
     font-weight: bold;
 }
 
-#lateral #videolateral #textolateral p {
+#textolateral p {
     font-size: 10px;
     font-weight: normal;
 }
 
-#lateral #textolateral {
+#textolateral {
     display: flex;
     font-size: 10px;
     font-weight: normal;
@@ -171,8 +185,7 @@ h3 {
     padding: 2px 0px 10px 10px;
 }
 
-#lateral #videolateral {
+#videolateral {
     display: flex;
 }
-
 
