@@ -9,12 +9,12 @@
 }
 
 body {
-    width: 100vw;
+    width: 98vw;
     height: 100vh;
 }
 
 header {
-    width: 100vw;
+    width: 98vw;
     height: 35px;
     display: flex;
     padding-top: 10px;
@@ -62,10 +62,17 @@ header {
 }
 
 main {
-    width: 70vw;
-    margin: 20px 100px 10px 100px;
-    height: 650px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
 }
+
+#tamanho {
+    width: 800px;
+    display: inline-block;
+}
+
+
 
 main p {
     font-weight: bold;
@@ -81,11 +88,89 @@ main p {
 
 #inscrever {
     background-color: red;
+    border-radius: 2px;
     color: white;
+    width: 159px;
+    height: 40px;
+}
+
+#like {
+    border: none;
+}
+#dislike {
+    border: none;
+}
+#compartilhar {
+    border: none;
+}
+#download {
+    border: none;
 }
 
 #opcoes img {
     border-radius: 50%;
+}
+
+#opcoes {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-content: stretch;
+    align-items: center;
+    gap: 15px
+}
+
+#opcoes button {
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 14px;
+}
+
+#desc {
+    margin-bottom: 200px;
+    padding-bottom: 200px;
+}
+
+h3 {
+    padding-top: 10px;
+    font-weight: bold;
+    font-size: 14px;
+    color: black;
+}
+
+#desc p {
+    padding-top: 10px;
+    max-width: 600px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #515151;
+
+}
+
+#lateral {
+    display: flex;
+    width: 200px;
+}
+
+#lateral #videolateral h6 {
+    font-size: 10px;
+    font-weight: bold;
+}
+
+#lateral #videolateral #textolateral p {
+    font-size: 10px;
+    font-weight: normal;
+}
+
+#lateral #textolateral {
+    display: flex;
+    font-size: 10px;
+    font-weight: normal;
+}
+
+#lateral #videolateral {
+    display: flex;
 }
 
 
