@@ -64,14 +64,14 @@ header {
 main {
     margin-top: 20px;
     display: flex;
-    gap: 50px;
+    gap: 20px;
     flex-direction: row;
 }
 
 #tamanho {
     width: 800px;
     display: inline-block;
-    margin-left: 100px;
+    margin-left: 50px;
 }
 
 
@@ -119,7 +119,8 @@ main p {
     flex-wrap: wrap;
     align-content: stretch;
     align-items: center;
-    gap: 15px
+    gap: 10px;
+    margin-top: 7px;
 }
 
 #opcoes button {
@@ -153,20 +154,23 @@ h3 {
 
 #lateral {
     display: flex;
-    width: 300px;
+    flex-direction: column;
 }
 
-#lateral1 {
+.video-text-container {
     display: flex;
-    width: 300px;
+    flex-direction: row;
+    align-items: center; 
+    margin-bottom: 20px; 
 }
 
-#lateral2 {
-    display: flex;
-    width: 300px;
+
+#textolateral {
+    width: 190px; 
 }
 
-#videolateral h6 {
+
+#textolateral h6 {
     font-size: 10px;
     font-weight: bold;
 }
